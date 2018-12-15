@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 704px)
+{
+    
+     .column {
+        width: 100%;
+    }
+
+    img {
+    width:230px; 
+border-radius: 5%;
+}
+
+span.Heading {
+  font-size : 35pt;
+text-align: justify;
+color: #42009D;
+}
+
+span.OtherHeading {
+  font-size: 28px;
+  font-weight: normal;
+color: #42009D;
+}
+
+span.MoreHeading {
+  font-size: 18px;
+  font-weight: normal;
+ line-height: 35px;
+color: #808080;
+}
+
+#textboxid
+{
+    height:35px;
+    font-size:20pt;
+    border: 0;
+    width: 100%;
+}
+
+input[type=submit] {
+ font-size: 25px;
+  height: 35px;
+  width: 150px;
+  border: 0;
+  background: #ffffff;
+  margin-left: 30%;
+}
+
+}
+
+@media only screen and (min-width: 705px)
+{
+ 
+ .column {
+        width: 50%;
+    }
+
+
+
+code {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+    width:350px;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+border-radius: 5%;
+float:right;
+}
+
+span.Heading {
+  font-size : 35pt;
+text-align: justify;
+color: #42009D;
+ line-height: 95px;
+}
+
+span.OtherHeading {
+  font-size: 25px;
+  font-weight: normal;
+line-height: 5px;
+color: #42009D;
+}
+
+span.MoreHeading {
+  font-size: 15px;
+  font-weight: normal;
+ line-height: 35px;
+color: #808080;
+}
+
+#textboxid
+{
+    width: 130px;
+}
+  }

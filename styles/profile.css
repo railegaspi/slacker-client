@@ -1,0 +1,88 @@
+code {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  padding: 24px 15px;
+}
+
+section,
+aside {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+section {
+  float: left;
+  width: 25%;
+}
+
+aside {
+  float: right;
+  width: 68%;
+}
+
+img {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+span {
+  display: inline-block;
+  color: #0000ff;
+  width: 10rem;
+  text-indent: 10px;
+}
+
+span.profileLocation {
+  display: inline-block;
+  color: #0000ff;
+  width: 20rem;
+  text-indent: 25px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+span.profileUsername {
+  display: inline-block;
+  color: #0000ff;
+  width: 20rem;
+  text-indent: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+span.goBold {
+  display: inline-block;
+  color: #0000ff;
+  width: 6rem;
+  text-indent: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10pt;
+  text-align: justify;
+  color: #808080;
+}
+
+p.profileName {
+  line-height: 19px;
+  color: #0000ff;
+  font-size: 25px;
+  font-weight: normal;
+  text-indent: 10px;
+}
+
+p.subInfo {
+  line-height: 2;
+  font-size: 10pt;
+  color: #000000;
+}
+
+hr {
+  height: 1px;
+  background-color: #0000ff;
+}

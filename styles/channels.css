@@ -1,0 +1,138 @@
+* {
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  height : 100%;
+  margin : 0px;
+			}
+
+div {
+  display :inline-block;
+  	}
+
+.messageHeader{
+	line-height: 5px;
+    margin-left: 20px;
+	color: #4475CC;
+			}
+
+.main-section {
+ 	display :inline-block;
+ 	width : 100%;	
+	float : right;		
+	padding : 10px 20px;	
+	height: 100%;
+	}
+	
+#messages-list {
+	margin : auto 0;
+	height: 28em;
+    overflow-y: scroll;
+    border: 1px blue solid;
+    padding: 0.2rem 1rem;
+			}
+
+.message-row {
+	display: inline-block;
+	width :100%;
+	margin-bottom: 20px;
+	}
+
+.message-image {
+	display : inline-block;
+	width : 10%;	
+	float : left;
+	min-width: 30px;
+	max-width: 30px;			
+	}
+
+.message-image img {
+	max-width: 60px;
+	}
+
+.message-meta-text {
+	display : inline-block;
+	width : 90%;	
+	float : right;	
+	padding : 0.2em 0.2em 0.2em 0.2em;					
+	}				
+
+.message-text {
+	display : inline-block;
+	width : 100%;	
+	float : left;	
+	}	
+
+.message-time {
+	display : inline-block;
+	font-size: 0.8rem;	
+	}				
+
+.message-author {
+	display: inline-block;
+	vertical-align: top;				
+	font-weight: bolder;	
+	padding : 0.2em 2em 0.2em 0em;
+	width : 5rem;	
+	}		
+
+.message-box {
+	width : 80%;
+	font-size: 1em;
+	margin : 1em, auto;
+	height : 5em;
+			}	
+			
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnMessagebox {
+    float: left;
+    width: 91%;
+    height: 450px;
+    padding-top: 0px;
+}
+
+.textAreaDiv{
+  margin: 18px;
+}
+
+textarea {
+  width: 95%;
+  height: 75px;
+}
+
+.columnNav {
+    float: left;
+    width: 8%;
+    padding: 10px;
+    height: 550px;
+    line-height: 30px;
+    margin-left: 10px;
+    background-color: #4D00A5; 
+}
+
+span.profileUsername {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+span.channelNav {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bolder;
+  text-indent: 25px;
+}
+
+span.NavigationBar {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+}
