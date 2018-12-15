@@ -21,7 +21,9 @@ div {
 .rightNav{
 	line-height: 35px;
     margin-right: 60px;
-	color: #4475CC;
+	color: #ffffff;
+  font-size: 15px;
+  font-weight: normal;
 	float: right;
 }
 
