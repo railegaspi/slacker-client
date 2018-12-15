@@ -86,3 +86,11 @@ hr {
   height: 1px;
   background-color: #0000ff;
 }
+
+.rightNav{
+  line-height: 35px;
+    margin-right: 60px;
+  color: #4475CC;
+  float: right;
+   font-family: "Montserrat", sans-serif;
+}

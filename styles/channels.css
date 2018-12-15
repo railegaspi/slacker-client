@@ -18,6 +18,13 @@ div {
 	color: #4475CC;
 			}
 
+.rightNav{
+	line-height: 35px;
+    margin-right: 60px;
+	color: #4475CC;
+	float: right;
+}
+
 .main-section {
  	display :inline-block;
  	width : 100%;	
